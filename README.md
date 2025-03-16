@@ -16,6 +16,8 @@
 - mv file1 file2 – rename or move file1 to file2 if file2 is an existing directory, moves file1 into directory file2
 - echo "This is a test" >> output.txt - Appending text to a file
 - cat source.txt >> destination.txt - Appending File Contents
+- echo "This is a test" > output.txt - Replace  text to a file
+- cat source.txt > destination.txt - Replace File Contents
 - ln -s file link – create symbolic link link to file
 - touch file – create or update file
 - cat > file – places standard input into file
